@@ -2,6 +2,7 @@ import "./App.css";
 import { HomePage } from "./page/homePage";
 import { Education } from "./page/education";
 import { WorkingExperience } from "./page/workingExperience";
+import { Skill } from "./page/skill"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <HomePage />
       <Education />
       <WorkingExperience />
+      <Skill/>
     </div>
   );
 }

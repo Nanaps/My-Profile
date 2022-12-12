@@ -1,6 +1,5 @@
 import React from "react";
 import AboutMe from "../Picture/AboutMe.jpg";
-import Telephone from "../Picture/Telephone.png";
 import { NavigationBar } from "../Componants/navigationBar";
 import { ContactNavigation } from "../Componants/contactNavigation";
 import { MyInfo } from "../Componants/myInfo";
