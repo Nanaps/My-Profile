@@ -17,19 +17,19 @@ export const WorkingExperience = () => {
           </p>
         </div>
 
-        <div class="w-screen h-screen flex flex-row justify-center absolute top-[28%] rotate-3">
+        <div class="w-screen h-screen flex flex-row justify-center absolute top-[28%]">
           <div id="slider" class="w-[95%] h-[80%] ">
-            <marquee scrollamount="10">
+            <marquee scrollamount="5">
               {experience.map((item, index) => {
                 return (
                   <div
                     key={index}
-                    class=" w-[350px] h-[350px] text-left mt-[5%] m-[0.2%] p-[2%] bg-[#F0F0F0] rounded-2xl inline-block cursor-pointer hover:scale-105  duration-300"
+                    class=" w-[350px] h-[350px] text-left mt-[5%] m-[1%] p-[2%] bg-[#E3C5C0] rounded-2xl inline-block cursor-pointer hover:scale-105  duration-300"
                   >
                     <p>{item.company}</p>
                     <p>{item.positionAndPeriod}</p>
-                    <div class ="bg-[red] block">
-                      <ul class="list-inside list-disc w-[320px]">
+                    <div class=" block w-[320px]">
+                      <ul class="list-inside list-disc ">
                         <li>{item.description1}</li>
                         <li>{item.description2}</li>
                         <li>{item.description3}</li>

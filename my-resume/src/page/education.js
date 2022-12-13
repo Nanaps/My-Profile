@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import EducationCover from "../Picture/EducationCover.jpg";
 import TechUp from "../Picture/TechUp.jpeg";
 import TechnologySiam from "../Picture/TechnologySiam.png";
@@ -6,9 +7,10 @@ import PSU from "../Picture/PSU.gif";
 import Shanghai from "../Picture/Shanghai.jpeg";
 import Changzhou from "../Picture/Changzhou.png";
 import Yunnan from "../Picture/Yunnan.jpeg";
+
 export const Education = () => {
   return (
-    <div class="w-screen h-screen bg-[#967E76] relative scroll-behavior: smooth;">
+    <div class="w-screen h-screen bg-[#967E76] relative ">
       <div className="educationContent w-[60%] absolute top-[5%] left-[2%] ml-[50%]">
         <div class="flex flex-row mt-[15px]">
           <img
@@ -76,7 +78,7 @@ export const Education = () => {
       </div>
       <div class="relative">
         <img src={EducationCover} class="h-screen " />
-        <div class="h-screen w-[15%] bg-[rgba(200,149,149,0.5)] absolute top-[0%] left-[21.7%]">
+        <div class="h-screen w-[15%] bg-[rgba(200,149,149,0.5)] absolute top-[0%] left-[21.7%] animate__backInDown">
           <p class="topic rotate-90 text-[5.5rem] pt-[70%] pb-[50%] text-center text-[#ffffff]">
             EDUCATION
           </p>
